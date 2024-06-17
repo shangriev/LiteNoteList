@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.01fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  border-bottom: 1px solid #00000018;
+  margin-bottom: 20px;
+}
+input {
+  box-sizing: border-box;
+  padding: 10px 0 10px 5px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.blockImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .addImg {
+    width: 20px;
+    height: 20px;
+  }
+}
